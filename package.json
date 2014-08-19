@@ -1,0 +1,41 @@
+{
+  "name": "grunt-retinify",
+  "description": "small task which generates @media styles for retina images",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cheshirsky/grunt-retinify",
+  "author": "Cheshirsky",
+  "files": [
+    "tasks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cheshirsky/grunt-retinify.git"
+   },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+	"grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-clean": "0.5.0"
+  },
+  "dependencies": {
+    "postcss": "~2.1.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "css",
+    "versioning"
+  ],
+  "bugs": {
+    "url": "https://github.com/cheshirsky/grunt-retinify/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
