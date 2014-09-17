@@ -10,6 +10,6 @@
     background-image: url('demo/img/fxt1-x2.gif');
   }
   .rule, #from-second > .file {
-    background: url('demo/img/fxt1-x2.gif');
+    background: url('demo/img/fxt1-x2.gif'); /*one more test comment*/;
   }
 }
